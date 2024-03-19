@@ -100,14 +100,14 @@ header{
     right: 2px;
     transform: translate(20px , -5px);
 }
-.nav-small li{
+.nav-small a{
     text-decoration: none;
     margin-bottom: 10px;
     color: white;
     transition: 0.4s;
     cursor: pointer;
 }
-.nav-small li:hover{
+.nav-small a:hover{
     opacity: 0.5;
     transition: 0.4s;
 }
@@ -119,6 +119,11 @@ header{
     display: none;
     justify-content: space-around;
     width: 100%;
+}
+.nan-big a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 
 /* department photo */
@@ -228,8 +233,8 @@ header{
     -webkit-transform-origin: 0;
     -ms-transform-origin: 0;
     transform-origin: 0;
-    -webkit-box-shadow: 1px 1px 12px #000;
-    box-shadow: 1px 1px 12px #000;
+    -webkit-box-shadow: 1px 1px 5px #000;
+    box-shadow: 1px 1px 5px #000;
     display: block;
   }
   
@@ -272,13 +277,48 @@ header{
     margin-top: 25px;
    }
 
+   /* program */
+   .program{
+    width:90%;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 70px;
+    background-color: gray;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+   }
+   .program button{
+    border: none;
+    border-radius: 5px;
+    background-color: #056ad3;
+    height: 50px;
+    padding: 10px;
+    width: 80px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+   }
 
 
 
 
-
-
-
+/* footer */
+footer{
+    position: relative;
+    bottom: 0;
+    background-color: #e9e5e5;
+    height: 50px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* media query */
 
