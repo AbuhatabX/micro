@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header id="home">
         <div class="upper-head">
             <a class="facebook" target="_blank" href="https://google.com">f</a>
             <a target="_blank" href="https://google.com">Monofia university</a>
@@ -21,19 +21,23 @@
         </div>
         <div class="lower-head">
             <ul class="nan-big">
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
+               <a href="#home"><li> الرئيسية </li> </a>
+               <a href="#target"><li> اهداف القسم </li> </a>
+               <a href="#message"><li> رسالة القسم </li> </a>
+               <a href="#program"><li> برامج القسم </li> </a>
+               <a href="#doctors"><li> هيئة التدريس </li> </a>
             </ul>
             <div class="ham-icon" onclick="openLinks()">
-            <div class="icon"></div>
-            <div class="icon"></div>
-            <div class="icon"></div>
+                    <div class="icon"></div>
+                    <div class="icon"></div>
+                    <div class="icon"></div>
             </div>
             <ul class="nav-small" id="nav">
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
+                <a href="#home"><li> الرئيسية </li> </a>
+               <a href="#target"><li> اهداف القسم </li> </a>
+               <a href="#message"><li> رسالة القسم </li> </a>
+               <a href="#program"><li> برامج القسم </li> </a>
+               <a href="#doctors"><li> هيئة التدريس </li> </a>
             </ul>
         </div>
     </header>
@@ -45,13 +49,37 @@
     </section>
 
     <section class="about">
-        <p class="main-t"> قسم الميكروبيولوجي </p> <br>
+        <p class="main-t"> قسم الميكروبيولوجا</p> <br>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+             Itaque neque velit commodi recusandae! Quis fugit earum corporis similique tempora cumque quasi, <br>
+              consequatur provident sint. Maxime voluptatum veniam eum suscipit animi!</p>
+    </section>
+    <section class="about" id="target">
+        <p class="main-t"> اهداف قسم الميكروبيولوجا</p> <br>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+             Itaque neque velit commodi recusandae! Quis fugit earum corporis similique tempora cumque quasi, <br>
+              consequatur provident sint. Maxime voluptatum veniam eum suscipit animi!</p>
+    </section>
+    <section class="about" id="message">
+        <p class="main-t"> رسالة قسم الميكروبيولوجا</p> <br>
         <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
              Itaque neque velit commodi recusandae! Quis fugit earum corporis similique tempora cumque quasi, <br>
               consequatur provident sint. Maxime voluptatum veniam eum suscipit animi!</p>
     </section>
 
-    <section class="doctors">
+    <section class="about" id="program">
+        <p class="main-t"> برامج قسم الميكروبيولوجا</p> <br>
+        <div class="program">
+            <p> Pharm D</p>
+            <a target="_blank" href="https://google.com"><button>Download</button></a>
+        </div>
+        <div class="program">
+            <p> Pharm D (Clinical)</p>
+            <a target="_blank" href="https://google.com"><button>Download</button></a>
+        </div>
+    </section>
+
+    <section class="doctors" id="doctors">
         <p class="main-t"> اعضاء هيئه التدريس </p> <br>
         <div class="slide">
 
@@ -109,98 +137,12 @@
                 </div>
                </div>
 
-            <div class="book">
-                <div class="cover">
-                    <div class="img">
-                    </div>
-                    <span> Person</span>
-                    <p class="job"> Job Title</p>
-                </div>
-               </div>
-
-            <div class="book">
-                <div class="cover">
-                    <div class="img">
-                    </div>
-                    <span> Person</span>
-                    <p class="job"> Job Title</p>
-                </div>
-               </div>
-
-            <div class="book">
-                <div class="cover">
-                    <div class="img">
-                    </div>
-                    <span> Person</span>
-                    <p class="job"> Job Title</p>
-                </div>
-               </div>
-
-            <div class="book">
-                <div class="cover">
-                    <div class="img">
-                    </div>
-                    <span> Person</span>
-                    <p class="job"> Job Title</p>
-                </div>
-               </div>
-
-            <div class="book">
-                <div class="cover">
-                    <div class="img">
-                    </div>
-                    <span> Person</span>
-                    <p class="job"> Job Title</p>
-                </div>
-               </div>
-
-            <div class="book">
-                <div class="cover">
-                    <div class="img">
-                    </div>
-                    <span> Person</span>
-                    <p class="job"> Job Title</p>
-                </div>
-               </div>
-
-            <div class="book">
-                <div class="cover">
-                    <div class="img">
-                    </div>
-                    <span> Person</span>
-                    <p class="job"> Job Title</p>
-                </div>
-               </div>
-
-            <div class="book">
-                <div class="cover">
-                    <div class="img">
-                    </div>
-                    <span> Person</span>
-                    <p class="job"> Job Title</p>
-                </div>
-               </div>
-
-            <div class="book">
-                <div class="cover">
-                    <div class="img">
-                    </div>
-                    <span> Person</span>
-                    <p class="job"> Job Title</p>
-                </div>
-               </div>
-
-            <div class="book">
-                <div class="cover">
-                    <div class="img">
-                    </div>
-                    <span> Person</span>
-                    <p class="job"> Job Title</p>
-                </div>
-               </div>
-
         </div>
     </section>
+
+    <footer>
+        <p> جميع الحقوق محفوظة جامعة المنوفية 2024 </p>
+    </footer>
 
     <script src="main.js"></script>
 </body>
