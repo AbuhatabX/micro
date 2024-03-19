@@ -185,6 +185,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     width: 100%;
 }
 /* doctors card */
@@ -194,8 +195,8 @@ header{
     width: 120px;
     height: 150px;
     background-color: whitesmoke;
-    -webkit-box-shadow: 1px 1px 12px #000;
-    box-shadow: 1px 1px 12px #000;
+    -webkit-box-shadow: 1px 1px 5px #000;
+    box-shadow: 1px 1px 5px #000;
     -webkit-transform: preserve-3d;
     -ms-transform: preserve-3d;
     transform: preserve-3d;
@@ -209,8 +210,9 @@ header{
     -ms-flex-pack: center;
     justify-content: center;
     color: #000;
+    margin-top: 30px;
     margin: 20px;
-    margin-left: 10px;
+   
   }
   
   .cover {
