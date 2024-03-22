@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Cairo", sans-serif;
 }
 /* header */
 header{
@@ -22,6 +23,10 @@ header{
 .upper-head a{
     text-decoration: none;
     color: white;
+}
+
+.upper-head .university:hover{
+    color: #056ad3;
 }
 
 .upper-head .facebook{
@@ -119,6 +124,7 @@ header{
     display: none;
     justify-content: space-around;
     width: 100%;
+    direction: rtl;
 }
 .nan-big a{
     text-decoration: none;
@@ -251,21 +257,22 @@ header{
     font-weight: bolder;
   }
   .cover span {
-    font-weight: 600;
+    font-weight: bold;
     color: white;
     text-align: center;
     display: block;
     padding-top: 10px;
-    font-size: 16px;
+    font-size: 12px;
+    color: #000;
    }
    
    .cover .job {
     font-weight: 400;
-    color: white;
+    color: #000;
     display: block;
     text-align: center;
     padding-top: 3px;
-    font-size: 12px;
+    font-size: 11px;
    }
    
    .cover .img {
@@ -275,6 +282,31 @@ header{
     border-radius: 15px;
     margin: auto;
     margin-top: 25px;
+   }
+
+   .cover img {
+    width: 50px;
+    height: 50px;
+    background: #6b64f3;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 0px;
+   }
+
+   .book .email{
+    width: 60px;
+    height: 60px;
+    background-color: #6b64f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 24px;
+    box-shadow: 0px 0px 10px 0px rgb(85 115 223);
+   }
+   .book .email img{
+    width: 30px;
+    height: 30px;
    }
 
    /* program */
@@ -303,7 +335,31 @@ header{
     cursor: pointer;
     text-decoration: none;
    }
-
+   /* bacteria */
+   /* .bac{
+    position: sticky;
+    width: 60px;
+    height: 60px;
+    left: 4%;
+    bottom: 0;
+   }
+   .bac img{
+    position: relative;
+    width: 60px;
+    height: 60px;
+   }
+   .bac:hover::after{
+    content: " أهلا بك في قسم الميكروبيولوجيا ";
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 205px;
+    height: 50px;
+    border-radius: 20px;
+    transform: translate(60px ,-65px);
+    background-color: #a79f9f;
+   } */
 
 
 
@@ -341,6 +397,9 @@ footer{
     }
     .text{
         font-size: 20px;
+    }
+    footer p{
+        font-size: 14px;
     }
 }
 
