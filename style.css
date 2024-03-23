@@ -281,7 +281,7 @@ header{
     text-align: center;
     display: block;
     padding-top: 10px;
-    font-size: 12px;
+    font-size: 8px;
     color: #000;
    }
    
@@ -313,19 +313,41 @@ header{
    }
 
    .book .email{
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     background-color: #6b64f3;
     display: flex;
     align-items: center;
     justify-content: center;
     border: none;
     border-radius: 24px;
+    margin-bottom: 20px;
+    margin-top: 10px;
     box-shadow: 0px 0px 10px 0px rgb(85 115 223);
+    cursor: pointer;
    }
    .book .email img{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
+   }
+
+   .book .cv{
+    width: 40px;
+    height: 40px;
+    background-color: #69f364;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 24px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 10px 0px rgb(85, 223, 92);
+    cursor: pointer;
+   }
+   .book .cv img{
+    width: 20px;
+    height: 20px;
    }
 
    /* program */
