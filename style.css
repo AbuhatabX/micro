@@ -68,6 +68,7 @@ header{
     margin-left: 0;
     z-index: 5;
 }
+
 .ham-icon{
     cursor: pointer;
 }
@@ -168,6 +169,17 @@ header{
     margin-top: 60px;
     margin-right: 120px;
 }
+
+.main-logo-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.main-logo{
+    width: 200px;
+}
+
 .main-t{
     font-size: 25px;
     font-weight: bold;
@@ -397,12 +409,17 @@ footer{
     }
     .about{
         margin-right: 20px;
+        margin-left: 20px;
     }
     .doctors{
         margin-right: 20px;
     }
     .text{
-        font-size: 19px;
+        color: #505050;
+        font-size: 14.0pt;
+        line-height: 26px;
+        font-weight: 400;
+        word-spacing: normal;
     }
     footer p{
         font-size: 14px;
