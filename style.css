@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: "Cairo", sans-serif;
+    scroll-behavior: smooth;
 }
 /* header */
 header{
@@ -196,6 +197,7 @@ header{
     position: relative;
 }
 .text{
+    color: #505050;
     font-size: 20px;
     line-height: 50px;
     word-spacing: 10px;
@@ -313,22 +315,22 @@ header{
    }
 
    .book .email{
-    width: 40px;
-    height: 40px;
-    background-color: #6b64f3;
+    width: 50px;
+    height: 50px;
+    background-color: #0066bd;
     display: flex;
     align-items: center;
     justify-content: center;
     border: none;
-    border-radius: 24px;
+    border-radius: 15px;
     margin-bottom: 20px;
     margin-top: 10px;
     box-shadow: 0px 0px 10px 0px rgb(85 115 223);
     cursor: pointer;
    }
    .book .email img{
-    width: 20px;
-    height: 20px;
+    width: 50px;
+    height: 35px;
    }
 
    .book .cv{
